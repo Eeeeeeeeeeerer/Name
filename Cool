@@ -1,1 +1,7 @@
-game.Players:kick("haxx there is a bug in the script iil fix it")
+
+local function kickLocalPlayer()
+    game:GetService("Players").LocalPlayer:Kick("Haxx there is a bug in the script just wait")
+end
+
+
+kickLocalPlayer()
